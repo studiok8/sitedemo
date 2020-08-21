@@ -1,0 +1,158 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(248, 245, 198, 0.842);
+}
+.header{
+    height: 90px;
+    text-align: center;
+    background-color: rgba(187, 233, 230, 0.767);
+}
+.content{
+    margin: 10px 0 10px 0;
+    display: flex;
+    -ms-flex-pack: justify;
+    margin: 2em auto;
+    max-width: 960px;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.fancyArea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+.fancyArea a {
+    width: 32%;
+  }
+.fancyArea a img {
+    max-width: 100%;
+    height: 70%;
+  }
+.image{
+    width: 25%;
+    height: 200px;
+    display: block;
+    background-color: rgba(238, 200, 208, 0.733);
+    text-align: center;
+    margin: 10px;
+    border: 5px #b6f0bbc0 solid;
+    border-radius: 7px;
+}
+h1{
+    font-family: "Montserrat","游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+    color:rgb(231, 185, 154);
+}
+.content p{
+    font-family: "Montserrat","游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+    font-size:1rem;
+    font-weight:bold; 
+    color:rgb(203, 154, 231);
+  }
+.content p:before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f144""\f0a6";
+    padding-right:13px;
+    color: #ff7178;
+    font-weight: 900;
+}
+img{
+    width: 100%;
+    height: 70%;
+    align-self: flex-start;
+}
+.nav{display: flex;}
+h2,h3{
+    font-family: "Montserrat","游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+    color:rgba(255, 131, 49, 0.719);
+}
+.main p{
+    font-family: "Montserrat","游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+    font-size:1rem;
+    font-weight:bold; 
+    color:rgb(183, 106, 228);
+}
+.sidebar {
+    background-color: rgba(102, 188, 194, 0.753);  
+    padding:  10px;       
+    border-radius: 10px;  
+    display: flex;
+    flex-direction: column;
+    margin:1.8em;
+    width: 250px;
+}
+.sidebar-item {
+    padding: 10px;
+    color:  rgb(241, 172, 126);          
+    margin:  10px;       
+    border-radius:  5px;   
+    font-weight:bold; 
+}
+ 
+.sidebar-item:nth-child(1) {
+    background-color:  #eee;
+}
+ 
+.sidebar-item:nth-child(2) {
+    background-color:  #eee;
+}
+ 
+.sidebar:nth-child(3) {
+    background-color: #eee;
+}
+.sidebar-item:nth-child(4) {
+    background-color:  #eee;
+}
+ 
+.sidebar-item:nth-child(5) {
+    background-color:  #eee;
+}
+a.sidebar-item{
+    padding: 0 auto;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgba(109, 245, 188, 0.849) 50%);
+    background-position: 0 0;
+    background-size: 200% auto;
+    transition: 0.6s;
+    text-decoration:none;
+    border-radius: 7px;
+  }
+
+a.sidebar-item:hover{
+    background-position: -100% 0;
+    color: rgb(184, 85, 241);
+
+  }
+a.sidebar-item:visited {
+    color:#a278ca6b;
+    }
+.sidebar p:before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f004";
+    padding-left: 17px;
+    color: #ff7178;
+    font-weight: 900;
+}
+.main{
+    width: 650px;
+    margin:1.8em;
+}
+small {
+    text-align: center;
+    display:inline-block;
+    width:70em;
+    margin:0 auto;
+    margin-top:30px;
+    color: rgb(62, 35, 99);
+}
+.footer{
+    height: 70px;
+    text-align: center;
+    background-color: rgb(186, 245, 240);
+}
