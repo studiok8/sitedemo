@@ -46,6 +46,13 @@ body{
     border: 5px #b6f0bbc0 solid;
     border-radius: 7px;
 }
+@media screen and (max-width: 500px){
+    .image{
+        display: block;
+        width: 70%;
+        margin-left: 50px;
+    }
+}
 h1{
     font-family: "Montserrat","游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
     color:rgb(231, 185, 154);
@@ -69,6 +76,12 @@ img{
     align-self: flex-start;
 }
 .nav{display: flex;}
+@media screen and (max-width: 500px){
+    .nav{
+        display: list-item;
+        margin-left:30px;
+    }
+}
 h2,h3{
     font-family: "Montserrat","游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
     color:rgba(255, 131, 49, 0.719);
@@ -78,6 +91,11 @@ h2,h3{
     font-size:1rem;
     font-weight:bold; 
     color:rgb(183, 106, 228);
+}
+@media screen and (max-width: 500px){
+    .main p{
+        width: 50%;
+    }
 }
 .sidebar {
     background-color: rgba(102, 188, 194, 0.753);  
@@ -151,8 +169,18 @@ small {
     margin-top:30px;
     color: rgb(62, 35, 99);
 }
+@media screen and (max-width: 500px){
+    small{
+        width: 300px;
+    }
+}
 .footer{
     height: 70px;
     text-align: center;
     background-color: rgb(186, 245, 240);
+}
+@media screen and (max-width: 500px){
+    .footer{
+        width: 480px;
+    }
 }
